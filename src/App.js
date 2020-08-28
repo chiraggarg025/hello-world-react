@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name ="Chanakya";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <strong>Hello World!</strong>
+          <strong>Hello {name}</strong>
         </p>
         <a
           className="App-link"
